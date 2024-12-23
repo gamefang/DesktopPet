@@ -13,4 +13,4 @@
   - 休闲小游戏
 
 程序界面
-![alt text](img/ui.png)
+<img src="img/ui.png" alt="Alt Text" width="300" height="200">
