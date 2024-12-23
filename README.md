@@ -14,4 +14,4 @@
 
 程序界面
 
-<img src="img/ui.png" alt="Alt Text" width="790" height="610">
+<img src="img/ui.png" alt="Alt Text" width="390" height="300">
