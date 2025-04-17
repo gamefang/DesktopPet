@@ -48,7 +48,7 @@ func _physics_process(delta: float) -> void:
 
 func get_direction():
 	var target_x = DisplayServer.mouse_get_position().x	
-	if abs(main_window.position.x + 310 - target_x)< 200:
+	if abs(main_window.position.x + 310 - target_x)< 200 or show_menu:
 		current_state = "idle"
 	else:
 		current_state = "walk"
@@ -149,7 +149,7 @@ func on_submitted(new_text:String):
 		if 	command_dict.has(command_array[1]):
 			check_command(command_array[1])
 	else:
-		llmapi.call_aliyun(new_text)
+		llmapi.call_llm(new_text)
 		show_text("让我想想",0.5)
 	
 func on_request_finished(output:String):
