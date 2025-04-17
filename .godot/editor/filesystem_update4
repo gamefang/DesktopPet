@@ -1,6 +1,6 @@
-res://pet.tscn
-res://colors/color02.tres
-res://home.gdshader
-res://scenes/home.gdshader
+res://scenes/clock.tscn
+res://scenes/fire_work.tscn
+res://scenes/home.tscn
+res://scenes/llmapi.tscn
 res://scenes/pet.tscn
-res://scenes/pet.gd
+res://scenes/rocket.tscn

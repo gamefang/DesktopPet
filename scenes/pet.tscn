@@ -1,13 +1,13 @@
 [gd_scene load_steps=18 format=3 uid="uid://bwxttvui2774s"]
 
-[ext_resource type="Script" path="res://scenes/pet.gd" id="1_pjd2a"]
+[ext_resource type="Script" uid="uid://g885p1fgfmnv" path="res://scenes/pet.gd" id="1_pjd2a"]
 [ext_resource type="Texture2D" uid="uid://d0qf8cklsv0e7" path="res://assets/player.png" id="2_pgadw"]
 [ext_resource type="Texture2D" uid="uid://cb4dxiw04bwho" path="res://assets/tile05.png" id="3_2rs2u"]
 [ext_resource type="PackedScene" uid="uid://mixw5jsqxovi" path="res://scenes/llmapi.tscn" id="4_300yy"]
 [ext_resource type="PackedScene" uid="uid://cnkt2gcxqrnef" path="res://scenes/rocket.tscn" id="5_3hnuv"]
-[ext_resource type="Script" path="res://scenes/fire_window.gd" id="5_yfg1v"]
+[ext_resource type="Script" uid="uid://cwy210tt1gqsx" path="res://scenes/fire_window.gd" id="5_yfg1v"]
 [ext_resource type="Gradient" uid="uid://bj0kij4yjmd5k" path="res://colors/color01.tres" id="7_0vq3q"]
-[ext_resource type="Script" path="res://scenes/home_window.gd" id="7_7g47i"]
+[ext_resource type="Script" uid="uid://ba5qka8nwcyfk" path="res://scenes/home_window.gd" id="7_7g47i"]
 [ext_resource type="PackedScene" uid="uid://c8f6xxb2xjlwh" path="res://scenes/home.tscn" id="7_po47n"]
 [ext_resource type="Gradient" uid="uid://j5xyg0gfol2m" path="res://colors/color02.tres" id="8_0txoc"]
 [ext_resource type="Gradient" uid="uid://d2wtk86o4ixcj" path="res://colors/color03.tres" id="9_f7lel"]
@@ -64,9 +64,9 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_nslo7"]
 _data = {
-"RESET": SubResource("Animation_okytx"),
-"idle": SubResource("Animation_hhly5"),
-"walk": SubResource("Animation_5564x")
+&"RESET": SubResource("Animation_okytx"),
+&"idle": SubResource("Animation_hhly5"),
+&"walk": SubResource("Animation_5564x")
 }
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_lf4sb"]

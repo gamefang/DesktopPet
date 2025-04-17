@@ -61,8 +61,8 @@ shader_parameter/maxStrength = 0.01
 shader_parameter/strengthScale = 100.0
 shader_parameter/interval = 3.5
 shader_parameter/detail = 1.0
-shader_parameter/distortion = null
-shader_parameter/heightOffset = null
+shader_parameter/distortion = 0.0
+shader_parameter/heightOffset = 0.0
 shader_parameter/offset = 0.0
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_af5l7"]
@@ -73,8 +73,8 @@ shader_parameter/maxStrength = 0.01
 shader_parameter/strengthScale = 200.0
 shader_parameter/interval = 3.5
 shader_parameter/detail = 1.0
-shader_parameter/distortion = null
-shader_parameter/heightOffset = null
+shader_parameter/distortion = 0.0
+shader_parameter/heightOffset = 0.0
 shader_parameter/offset = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gcxg4"]
@@ -494,8 +494,8 @@ shader_parameter/maxStrength = 0.01
 shader_parameter/strengthScale = 200.0
 shader_parameter/interval = 10.0
 shader_parameter/detail = 1.0
-shader_parameter/distortion = null
-shader_parameter/heightOffset = null
+shader_parameter/distortion = 0.0
+shader_parameter/heightOffset = 0.0
 shader_parameter/offset = 0.0
 
 [sub_resource type="Animation" id="Animation_pfl1h"]
@@ -533,8 +533,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_kysvl"]
 _data = {
-"RESET": SubResource("Animation_pfl1h"),
-"idle": SubResource("Animation_ibb8g")
+&"RESET": SubResource("Animation_pfl1h"),
+&"idle": SubResource("Animation_ibb8g")
 }
 
 [node name="Home" type="Node2D"]
